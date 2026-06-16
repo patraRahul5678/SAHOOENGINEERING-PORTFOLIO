@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import { FaBars, FaTimes, FaHardHat } from "react-icons/fa";
 
+/*Navbar*/
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);

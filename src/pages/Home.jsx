@@ -4,6 +4,8 @@ import About from "../components/About";
 import Stats from "../components/Stats";
 import Contact from "../components/Contact";
 
+
+/*Home*/
 function Home() {
   return (
     <>

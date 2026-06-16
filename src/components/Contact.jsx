@@ -2,6 +2,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { useState } from "react";
 import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaWhatsapp } from "react-icons/fa";
 
+/*Contact*/
 function Contact() {
   const [formData, setFormData] = useState({ name: '', phone: '', email: '', message: '' });
   const { scrollYProgress } = useScroll();

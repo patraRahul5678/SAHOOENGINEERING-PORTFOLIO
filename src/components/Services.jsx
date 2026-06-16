@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import { FaHardHat, FaTools, FaBuilding, FaCubes, FaHammer, FaWarehouse } from "react-icons/fa";
 
+
+/*Services*/
 function Services() {
   const services = [
     {

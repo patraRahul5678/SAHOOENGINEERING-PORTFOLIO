@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { FaAward, FaUsers, FaShieldAlt, FaClock, FaCheckCircle } from "react-icons/fa";
 
+/*About*/
 function About() {
   const features = [
     { icon: FaAward, title: "Quality Assured", desc: "ISO certified processes", color: "from-yellow-400 to-orange-500" },

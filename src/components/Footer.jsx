@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaPhone, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 
+
+/*Footer*/
 function Footer() {
   const socialLinks = [
     { icon: FaFacebook, href: "#", color: "hover:text-blue-500" },

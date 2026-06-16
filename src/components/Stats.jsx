@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 
+
+/*Stats*/
 function Stats() {
   const stats = [
     { end: 150, suffix: "+", label: "Projects Completed", icon: "🏗️" },

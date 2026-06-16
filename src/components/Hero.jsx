@@ -1,6 +1,8 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { FaHardHat } from "react-icons/fa";
 
+
+/*Hero*/
 function Hero() {
   const { scrollY } = useScroll();
   const y1 = useTransform(scrollY, [0, 500], [0, 150]);
